@@ -59,13 +59,17 @@ The project also includes JWT security, local H2 storage, JUnit testing, Seleniu
 ```text
 smart-expense-tracker-complete/
 │
+├── .mvn/
 ├── pom.xml
+├── mvnw
 ├── mvnw.cmd
-├── README.md
+├── build-frontend.cmd
 ├── run-backend-tests.cmd
 ├── run-api-tests.cmd
 ├── run-ui-tests.cmd
-├── open-swagger.cmd
+├── setup-frontend.cmd
+├── start-backend.cmd
+├── start-frontend.cmd
 │
 ├── src/
 │   ├── backend/
