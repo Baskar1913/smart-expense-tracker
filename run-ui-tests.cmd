@@ -1,4 +1,0 @@
-@echo off
-cd /d "%~dp0"
-call mvnw.cmd clean test -Pui-tests
-pause
