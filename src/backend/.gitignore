@@ -1,0 +1,9 @@
+target/
+data/
+logs/*.log
+logs/*.gz
+!logs/.gitkeep
+!logs/README.txt
+.idea/
+.vscode/
+*.iml

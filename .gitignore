@@ -1,0 +1,104 @@
+# ==================================================
+# Maven / Java build output
+# ==================================================
+**/target/
+*.class
+
+# ==================================================
+# React / Vite frontend
+# ==================================================
+src/frontend/node_modules/
+src/frontend/dist/
+src/frontend/.vite/
+
+# npm log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==================================================
+# Environment files
+# ==================================================
+.env
+.env.*
+!.env.example
+
+src/frontend/.env
+src/frontend/.env.*
+!src/frontend/.env.example
+
+# ==================================================
+# Local H2 database
+# May contain users, password hashes and expenses
+# ==================================================
+src/backend/data/
+*.mv.db
+*.trace.db
+*.lock.db
+
+# ==================================================
+# Local credentials and test configuration
+# ==================================================
+tests/automation/src/test/resources/config.properties
+
+# ==================================================
+# Logs
+# ==================================================
+logs/
+**/logs/
+*.log
+*.log.*
+*.gz
+
+# ==================================================
+# Selenium and test-generated files
+# ==================================================
+screenshots/
+downloads/
+test-output/
+allure-results/
+allure-report/
+
+# ==================================================
+# Eclipse IDE
+# ==================================================
+**/.classpath
+**/.project
+**/.settings/
+**/.factorypath
+**/.springBeans
+**/.sts4-cache/
+bin/
+
+# ==================================================
+# IntelliJ IDEA
+# ==================================================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ==================================================
+# Visual Studio Code
+# ==================================================
+.vscode/
+
+# ==================================================
+# Operating-system files
+# ==================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==================================================
+# Temporary and backup files
+# ==================================================
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.backup
+*~
+~$*
